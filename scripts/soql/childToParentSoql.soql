@@ -1,0 +1,7 @@
+select name,Account.name,Account.industry from Contact WHERE account.industry = 'energy'
+
+select id,priority__c,subject__c,salesforce_project__r.project_name__c,salesforce_project__r.status__c from salesforce_ticket__c
+
+select id, name,(select lastname,firstName from contacts) from account
+
+select COUNT (mailingcity) from Contact

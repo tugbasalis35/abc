@@ -1,0 +1,11 @@
+select id,Name,mailingCity from Contact WHERE MailingCity = 'Paris'
+
+select id,Name, MailingCity,MailingCountry from Contact WHERE Name LIKE'%A%'
+
+select id, name,phone from account WHERE phone !=NULL
+
+SELECT ID,Name,Phone from Account WHERE (phone!=null or website!=null)and accountNumber!=null
+
+select id,name,subject__c,status__c ,priority__c FROM Salesforce_ticket__c WHERE status__c!='' and priority__c = 'High'
+
+SELECT name,Industry FROM Account where industry = limit 2

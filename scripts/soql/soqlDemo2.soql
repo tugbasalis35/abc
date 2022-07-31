@@ -1,0 +1,13 @@
+public class SoqlDemo2{   
+public static void childToParent_soql() {
+    List<contact>listcnt = [select id, name, account.name, account.industry from contact where account.industry = 'energy'];
+
+    for (contact eachContact   : listcnt) {
+        string eachName = eachContact.Account.Name;
+        System.debug('contact name is ' + eachContact.Name + ', its acc is ' + accName);
+    }
+    
+}
+
+
+}
