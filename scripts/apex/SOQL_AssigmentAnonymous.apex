@@ -1,0 +1,1 @@
+SOQL_Assigment.method1();
