@@ -11,8 +11,6 @@ public class DmlDemo3 {
         }
         if (!updateAccounts.isEmpty()) {
             update updateAccounts;
-        }else{
-            System.debug('NO ACCOUNTS TO UPDATE');
         }
         }
     

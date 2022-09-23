@@ -1,4 +1,11 @@
-trigger CaseTrigger on Case (before insert, after insert, before update, after update, before delete, after delete) {
+trigger CaseTrigger on Case (before insert){  
+    System.debug('before trigger insert case called');
+    System.debug('trigger size is===>' + trigger.size);
+
+}
+
+
+
 //     if(trigger.isBefore){  
 //   System.debug('before ' + trigger.isBefore);
 //         if(trigger.isInsert){
@@ -24,4 +31,3 @@ trigger CaseTrigger on Case (before insert, after insert, before update, after u
 //     }
 
 
-}

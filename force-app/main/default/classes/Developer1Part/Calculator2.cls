@@ -6,11 +6,11 @@ public  class Calculator2 {
    //method name
    //paramaters to pass
    //return type
-   public static boolean leapYearCheck(date dt){
-    integer year = dt.year();
-    boolean Ip = date.isLeapYear(year);
-    return Ip;
-   }
+   // public static boolean leapYearCheck(date dt){
+   //  integer year = dt.year();
+   //  boolean Ip = date.isLeapYear(year);
+   //  return Ip;
+   //}
    public static integer add(integer x, integer y){
     Integer sum = x + y;
     return sum;
